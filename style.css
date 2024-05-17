@@ -106,21 +106,30 @@ footer {
         display: block;
     }
 
-    form {
-        width: 80%;
-    }
+    
+  .card-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .contact{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+  }
+   
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .container{
-    height: 70vh;
+  
     margin-top: 3rem;
  
 }
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
     .container{
         margin-top: 25rem;
         display: flex;
@@ -139,7 +148,7 @@ footer {
        margin-left: 5rem;
     }
     
-  }
+  } */
 .head{
     margin-bottom: 2rem;
     text-align: center;
