@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 5px;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.projects .project {
+    margin: 1rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.5rem;
+    border: none;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    form {
+        width: 80%;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 70vh;
+    margin-top: 3rem;
+ 
+}
+@media screen and (max-width:768px) {
+    .container{
+        margin-top: 25rem;
+        display: flex;
+        flex-direction: column;
+                    align-items: center;    
+    }
+    .card-item{
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-left:-10rem;
+    }
+    h2 {
+       margin-left: 5rem;
+    }
+    
+  }
+.head{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.card:hover{
+    box-shadow: 0 0 25px aqua;
+
+}
+.card{
+    background-color: crimson;
+    border:2px solid crimson;
+    
+}
